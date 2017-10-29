@@ -20,18 +20,19 @@ struct question_answers{
 //inits quiz struct
 vector<question_answers> init_quiz();
 
-int ask_question_1(vector<question_answers> a);
-int ask_question_2(vector<question_answers> a);
-int ask_question_3(vector<question_answers> a);
-int ask_question_4(vector<question_answers> a);
-int ask_question_5(vector<question_answers> a);
+void ask_question_1(vector<question_answers> v, int* a, int* b, int* c, int* d, int* e, int* f, int* g);
+void ask_question_2(vector<question_answers> v, int* a, int* b, int* c, int* d, int* e, int* f, int* g);
+void ask_question_3(vector<question_answers> v, int* a, int* b, int* c, int* d, int* e, int* f, int* g);
+void ask_question_4(vector<question_answers> v, int* a, int* b, int* c, int* d, int* e, int* f, int* g);
+void ask_question_5(vector<question_answers> v, int* a, int* b, int* c, int* d, int* e, int* f, int* g);
+
 
 void redSum();
 void yellowSum();
 void blueSum();
 void orangeSum();
 void violetSum();
-void purpleSum(); 
-void greenSum(); 
+void purpleSum();
+void greenSum();
 
 #endif
