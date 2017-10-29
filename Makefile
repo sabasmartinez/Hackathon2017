@@ -1,6 +1,6 @@
-main: Masterquiz.o Lai.o
-	g++ Masterquiz.o Lai.o -o main
-Masterquiz.o: Masterquiz.cpp
-	g++ -c -std=c++11 Masterquiz.cpp
-Lai.o: Lai.cpp
-	g++ -c -std=c++11 Lai.cpp
+main: main.o fn.o
+	g++ main.o fn.o -o main
+main.o: main.cpp
+	g++ -c -std=c++11 main.cpp
+fn.o: fn.cpp
+	g++ -c -std=c++11 fn.cpp
