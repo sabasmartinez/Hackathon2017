@@ -1,21 +1,28 @@
 #ifndef MASTERQUIZ_H
 #define MASTERQUIZ_H
-class quiz
-{
-public:
-int Red,Yellow,Blue,Violet,Orange,Green,Purple;
-int userChoice;
-void question1(); 
-void question2();
-void question3();
-void question4();
-void question5(); 
-void redSum();
-void yellowSum(); 
-void blueSum();
-void violentSum();
-void orangeSum();
-void greenSum();
-void purpleSum();
+#include<string>
+#include<vector>
+
+using namespace std;
+
+struct question_answers{
+ string question;
+ string answer1;
+ string answer2;
+ string answer3;
+ string answer4;
+ string answer5;
+ string answer6;
+ string answer7;
 };
+
+//inits quiz struct
+vector<question_answers> init_quiz();
+
+int ask_question_1(vector<question_answers> a);
+int ask_question_2(vector<question_answers> a);
+int ask_question_3(vector<question_answers> a);
+int ask_question_4(vector<question_answers> a);
+int ask_question_5(vector<question_answers> a);
+
 #endif
