@@ -7,7 +7,7 @@ using namespace std;
 
 vector<question_answers> init_quiz(){
   ifstream quiz;
-  quiz.open("quiz.txt");
+  quiz.open("quiz.csv");
   vector<question_answers> chicken;
   if(!quiz.is_open()){
     cout << "ERROR: File Not Found!" << endl;
