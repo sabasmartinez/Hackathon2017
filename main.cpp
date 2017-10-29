@@ -32,37 +32,42 @@ int main(){
   // return_chakra(red_ptr, yellow_ptr, blue_ptr, voilet_ptr, orange_ptr, green_ptr, purple_ptr);
   if ((red_ptr> blue_ptr) && (red_ptr > orange_ptr) && (red_ptr > voilet_ptr) && (red_ptr > yellow_ptr) && (red_ptr > green_ptr) && (red_ptr > purple_ptr))
     {
-      cout
+      cout << "You got RED CHAKRA" << endl;
       cout << "View definition of red chakra? (yes or no)" << "\n";
             cin >> chakra_Def;
             if (chakra_Def == "yes")
             redSum();
     } else if ((blue_ptr > red_ptr) && (blue_ptr > orange_ptr) && (blue_ptr > voilet_ptr) && (blue_ptr > yellow_ptr) && (blue_ptr > green_ptr) && (blue_ptr > purple_ptr))
           {
+      cout << "You got BLUE CHAKRA" << endl;
       cout << "View definition of blue chakra? (yes or no)" << "\n";
                         cin >> chakra_Def;
                         if (chakra_Def == "yes")
                         blueSum();
           } else if ((orange_ptr > blue_ptr) && (orange_ptr > red_ptr) && (orange_ptr > voilet_ptr) && (orange_ptr > yellow_ptr) && (orange_ptr > green_ptr) && (orange_ptr > purple_ptr))
           {
+      cout << "You got ORANGE CHAKRA" << endl;
       cout << "View definition of orange chakra? (yes or no)" << "\n";
                         cin >> chakra_Def;
                         if (chakra_Def == "yes")
                         orangeSum();
           } else if ((voilet_ptr > blue_ptr) && (voilet_ptr > orange_ptr) && (voilet_ptr > red_ptr) && (voilet_ptr > green_ptr) && (voilet_ptr > purple_ptr) && (voilet_ptr > yellow_ptr))
           {
+      cout << "You got VIOLET CHAKRA" << endl;
       cout << "View definition of violet chakra? (yes or no)" << "\n";
                         cin >> chakra_Def;
                         if (chakra_Def == "yes")
                         violetSum();
           } else if ((yellow_ptr > blue_ptr) && (yellow_ptr > orange_ptr) && (yellow_ptr > voilet_ptr) && (yellow_ptr > red_ptr) && (yellow_ptr > green_ptr) && (yellow_ptr > purple_ptr))
           {
+      cout << "You got YELLOW CHAKRA" << endl;
       cout << "View definition of yellow chakra? (yes or no)" << "\n";
                         cin >> chakra_Def;
                         if (chakra_Def == "yes")
                         yellowSum();
           } else if ((green_ptr > blue_ptr) && (green_ptr > orange_ptr) && (green_ptr > voilet_ptr) && (green_ptr > yellow_ptr) && (green_ptr > red_ptr) && (green_ptr > purple_ptr))
           {
+      cout << "You got GREEN CHAKRA" << endl;
       cout << "View definition of green chakra? (yes or no)" << "\n";
                         cin >> chakra_Def;
                         if (chakra_Def == "yes")
