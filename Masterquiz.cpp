@@ -13,12 +13,5 @@ int main(){
   ask_question_4(vector_quiz);
   ask_question_5(vector_quiz);
 
-
-// quiz Chakara;
-// Chakara.question3();
-// Chakara.question4();
-// Chakara.question5();
-// cout << Red;
-// cout << Violet;
 return 0;
 }
