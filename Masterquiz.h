@@ -5,6 +5,7 @@
 
 using namespace std;
 
+
 struct question_answers{
  string question;
  string answer1;
@@ -24,5 +25,13 @@ int ask_question_2(vector<question_answers> a);
 int ask_question_3(vector<question_answers> a);
 int ask_question_4(vector<question_answers> a);
 int ask_question_5(vector<question_answers> a);
+
+void redSum();
+void yellowSum();
+void blueSum();
+void orangeSum();
+void violetSum();
+void purpleSum(); 
+void greenSum(); 
 
 #endif
